@@ -12,6 +12,9 @@
 	margin: 1%;
 	padding: 5%;
 }
+ul{
+	list-style-type: circle;
+}
 
 section{
 	display: inline-block;
@@ -44,11 +47,19 @@ h1{
 	background: linear-gradient(to bottom,  #a8e8f2 0%,#1190a3 50%,#017e91 51%,#55bac9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a8e8f2', endColorstr='#55bac9',GradientType=0 ); /* IE6-9 */
 	clear: both;
+	padding: 1%;
 }
 #foot a{
 	text-decoration: none;
+	margin: 5px;
+}
+#foot img{
+	width: 5%;
+	margin: 1%;
+	border-radius: 5px;
 }
 #foot a:hover{
 	color:#ffe100;
+	background-color: #a614ce;
 
 }
