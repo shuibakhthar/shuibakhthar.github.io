@@ -1,6 +1,6 @@
 #body{
 	background-image: url("../img/peace.jpg"); 
-	background-size: 100%;
+	background-size: cover;
 	
 }
 #header{
