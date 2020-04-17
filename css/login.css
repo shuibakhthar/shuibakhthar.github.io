@@ -54,7 +54,7 @@ h1{
 
 .log input[type="text"], input[type="email"]{
           border: none;
-          border-bottom: 1vh solid #fff;
+          border-bottom: .5vh solid #fff;
           background: transparent;
           outline:none;
           height:5vh;
@@ -84,7 +84,94 @@ h1{
 }
 }
 
-@media only screen and (min-width:2048px){
+@media only screen and (max-width:720px ){
+body{
+	margin: 0;
+	padding: 0;
+	background: url("../img/firecrack.jpg");
+	background-size: cover;
+}
+
+.log{
+	width: 20vw;
+	height:60vh;
+	background: #000;
+	color: #fff;	
+	top: 20%;
+	left: 36%;
+	position: absolute;
+	transform: translate(-50%, -50%)
+	box-sizing: border-box;
+	padding: 5% 5%;
+	opacity:0.85;
+	
+}
+
+.img1{
+	width: 50px;
+	height: 60px;
+	position: absolute;
+	top: -7%;
+	left: calc(50% - 20%);
+	background-color: black;
+	border-radius: 50%;
+	opacity: .9;
+}
+
+h1{
+	margin: 0;
+	padding: 0 0 1%;
+	font-size: 200%;
+	text-align: center;
+	font-weight: bold;
+}
+
+.log p{
+	margin: 1vw;
+	padding: 1vh;
+	font-size: 100%;
+	font-weight: bold;
+}
+
+.log input{
+	width: 100%;
+	margin-bottom:10%
+}
+
+.log input[type="text"], input[type="email"]{
+          border: none;
+          border-bottom: .5vh solid #fff;
+          background: transparent;
+          outline:none;
+          height:5vh;
+          color:#fff;
+          font-size:10px;
+}
+
+.log input[type="button"]{
+      border: none;
+      outline:none;
+      height:40px;
+      background:#fb2525;
+      color: #fff;
+      font-size:18px;
+      border-radius:20px;
+}
+.log input[type="button"]:hover{    
+	cursor:pointer;
+	background:#ffc107;
+ 	color:#000;
+}
+   
+.active{
+	color:#fff;
+	background:#e02626;
+	border-radius:4px;
+}
+}
+
+
+@media only screen and (max-width:1024px){
 	body{
 		margin: 0;
 		padding: 0;
@@ -122,6 +209,92 @@ h1{
 		margin: 0;
 		padding: 0 0 1%;
 		font-size: 200%;
+		text-align: center;
+		font-weight: bold;
+	}
+
+	.log p{
+		margin: 1%;
+		padding: 1%;
+		font-size: 200%;
+		font-weight: bold;
+	}
+
+	.log input{
+		width: 100%;
+		margin-bottom:10%
+	}
+
+	.log input[type="text"], input[type="email"]{
+	          border: none;
+	          border-bottom: 1vh solid #fff;
+	          background: transparent;
+	          outline:none;
+	          height:5vh;
+	          color:#fff;
+	          font-size:16px;
+	}
+
+	.log input[type="button"]{
+	      border: none;
+	      outline:none;
+	      height:40px;
+	      background:#fb2525;
+	      color: #fff;
+	      font-size:18px;
+	      border-radius:20px;
+	}
+	.log input[type="button"]:hover{    
+		cursor:pointer;
+		background:#ffc107;
+	 	color:#000;
+	}
+	   
+	.active{
+		color:#fff;
+		background:#e02626;
+		border-radius:4px;
+	}
+}
+
+@media only screen and (max-width:2048px){
+	body{
+		margin: 0;
+		padding: 0;
+		background: url("../img/firecrack.jpg");
+		background-size: cover;
+	}
+
+	.log{
+		width: 20vw;
+		height:50vh;
+		background: #000;
+		color: #fff;	
+		top: 20%;
+		left: 36%;
+		position: absolute;
+		transform: translate(-50%, -50%)
+		box-sizing: border-box;
+		padding: 5% 5%;
+		opacity:0.85;
+		
+	}
+
+	.img1{
+		width: 30%;
+		height: 25%;
+		position: absolute;
+		top: -14%;
+		left: calc(50% - 15%);
+		background-color: black;
+		border-radius: 50%;
+		opacity: .9;
+	}
+
+	h1{
+		margin: 0;
+		padding: 0 0 1%;
+		font-size: 50px;
 		text-align: center;
 		font-weight: bold;
 	}
