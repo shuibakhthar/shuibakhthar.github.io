@@ -1,4 +1,55 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*My code*/
+
 /*@media only screen and (max-width:2560px ){}*/
+
 body{
 	margin: 0;
 	padding: 0;
@@ -6,30 +57,30 @@ body{
 	background-size: cover;
 }
 
+
 #section1{
-	min-height: 70vh;
+	min-height: 80vh;
 }
 
 .log{
-	width: 20vw;
-	height:50vh;
+	width: 30%;
+	height:52%;
 	background: #000;
 	color: #fff;	
 	top: 20%;
-	left: 36%;
+	left: 33%;
 	position: absolute;
 	transform: translate(-50%, -50%)
 	box-sizing: border-box;
-	padding: 5% 5%;
+	padding: 5% 5% 5% 5%;
 	opacity:0.85;
 	
 }
-
 .img1{
 	width: 30%;
-	height: 25%;
+	height: 15%;
 	position: absolute;
-	top: -10%;
+	top: -8%;
 	left: calc(50% - 15%);
 	background-color: black;
 	border-radius: 50%;
@@ -37,7 +88,7 @@ body{
 }
 
 h1{
-	margin: 0;
+	margin: 5%;
 	padding: 0 0 1%;
 	font-size: 200%;
 	text-align: center;
@@ -47,18 +98,19 @@ h1{
 .log p{
 	margin: 1%;
 	padding: 1%;
-	font-size: 200%;
+	font-size: 125%;
 	font-weight: bold;
 }
 
 .log input{
 	width: 100%;
-	margin-bottom:10%
+	margin-top: 5%;
+	margin-bottom:10%;
 }
 
 .log input[type="text"], input[type="email"]{
           border: none;
-          border-bottom: 1vh solid #fff;
+          border-bottom: .25vh solid #fff;
           background: transparent;
           outline:none;
           height:5vh;
@@ -69,12 +121,13 @@ h1{
 .log input[type="button"]{
       border: none;
       outline:none;
-      height:40px;
+      height:5vh;
       background:#fb2525;
       color: #fff;
       font-size:18px;
       border-radius:20px;
 }
+
 .log input[type="button"]:hover{    
 	cursor:pointer;
 	background:#ffc107;
