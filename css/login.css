@@ -48,7 +48,6 @@ table {
 }
 /*My code*/
 
-/*@media only screen and (max-width:2560px ){}*/
 
 body{
 	margin: 0;
@@ -139,3 +138,74 @@ h1{
 	background:#e02626;
 	border-radius:4px;
 }
+
+@media only screen and (max-width:768px ){
+	#section1{
+		min-height: 90vh;
+	}
+
+	.log{
+		height:48%;
+		
+	}
+
+	.log p{
+		font-size: 150%;
+	}
+
+	.log input{
+		width: 100%;
+		margin-top: 2%;
+	}
+
+}
+@media only screen and (max-width:1044px ){
+	
+	#section1{
+		min-height: 100vh;
+	}
+
+	.log{
+		height:40%;
+		top: 30%;
+		left: 33%;
+		
+	}
+	.img1{
+		width: 40%;
+		height: 20%;
+		position: absolute;
+		top: -10%;
+		left: calc(50% - 20%);
+	}
+
+	h1{
+		margin-top: 10%;
+		margin-bottom: 10%;
+		font-size: 250%;
+	}
+
+	.log p{
+		font-size: 175%;
+		font-weight: bold;
+	}
+
+	.log input{
+		width: 100%;
+		margin-top: 0%;
+		margin-bottom:5%;
+	}
+
+	.log input[type="text"], input[type="email"]{
+	          font-size:20px;
+	}
+
+	.log input[type="button"]{
+	      margin-top : 6%;
+	      font-size:24px;
+	}
+
+}
+
+/*@media only screen and (max-width:768px ){}*/
+
