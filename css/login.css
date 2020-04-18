@@ -2,7 +2,7 @@ body{
 	margin: 0;
 	padding: 0;
 	background: url("../img/firecrack.jpg");
-	background-size: fill;
+	background-size: cover;
 	background-repeat:no-repeat;
 }
 
@@ -95,7 +95,7 @@ h1{
 		margin: 0;
 		padding: 0;
 		background: url("../img/firecrack.jpg");
-		background-size: fill;
+		background-size: cover;
 		background-repeat:no-repeat;
 	}
 
@@ -354,7 +354,7 @@ h1{
 		margin: 0;
 		padding: 0;
 		background: url("../img/firecrack.jpg");
-		background-size: fill;
+		background-size: cover;
 		background-repeat:no-repeat;
 	}
 
@@ -448,7 +448,7 @@ h1{
 		margin: 0;
 		padding: 0;
 		background: url("../img/firecrack.jpg");
-		background-size: fill;
+		background-size: cover;
 		background-repeat:no-repeat;
 	}
 
@@ -542,7 +542,7 @@ h1{
 		margin: 0;
 		padding: 0;
 		background: url("../img/firecrack.jpg");
-		background-size: fill;
+		background-size: cover;
 		background-repeat:no-repeat;
 	}
 
