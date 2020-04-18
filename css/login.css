@@ -1,7 +1,7 @@
 body{
 	margin: 0;
 	padding: 0;
-	background: url("../img/peace.jpg");
+	background: url("../img/firecrack.jpg");
 	background-size: cover;
 }
 
@@ -93,8 +93,8 @@ h1{
 	body{
 		margin: 0;
 		padding: 0;
-		background: url("../img/peace.jpg");
-		background-size: fill;
+		background: url("../img/firecrack.jpg");
+		background-size: cover;
 	}
 
 
@@ -182,10 +182,6 @@ h1{
 }
 
 @media only screen and (min-width:550px ){
-	body{
-		background-size: fill;
-	}
-
 	#section1{
 		min-height:100vh;
 	}
@@ -271,10 +267,6 @@ h1{
 
 @media only screen and (min-width:640px ){
 
-	body{
-		background-size: fill;
-	}
-
 	#section1{
 		min-height: 100vh;
 	}
@@ -359,7 +351,7 @@ h1{
 	body{
 		margin: 0;
 		padding: 0;
-		background: url("../img/peace.jpg");
+		background: url("../img/firecrack.jpg");
 		background-size: cover;
 	}
 
@@ -452,7 +444,7 @@ h1{
 	body{
 		margin: 0;
 		padding: 0;
-		background: url("../img/peace.jpg");
+		background: url("../img/firecrack.jpg");
 		background-size: cover;
 	}
 
@@ -545,8 +537,8 @@ h1{
 	body{
 		margin: 0;
 		padding: 0;
-		background: url("../img/peace.jpg");
-		background-size: 100vw 100vh;
+		background: url("../img/firecrack.jpg");
+		background-size: cover;
 	}
 
 
