@@ -139,7 +139,7 @@ h1{
 	border-radius:4px;
 }
 
-@media only screen and (max-width:768px ){
+@media only screen and (min-width:768px ){
 	#section1{
 		min-height: 90vh;
 	}
@@ -159,7 +159,7 @@ h1{
 	}
 
 }
-@media only screen and (max-width:1044px ){
+@media only screen and (min-width:1024px ){
 	
 	#section1{
 		min-height: 100vh;
@@ -206,6 +206,65 @@ h1{
 	}
 
 }
+
+@media only screen and (min-width:1920px ){
+	
+	#section1{
+		min-height: 100vh;
+	}
+
+	.log{
+		width: 20%;
+		height:50%;
+		top: 22%;
+		left: 35%;
+		
+	}
+	.img1{
+		width: 35%;
+		height: 20%;
+		top: -10%;
+		left: calc(50% - 19%);
+	}
+
+	h1{
+		margin-top: 2%;
+		margin-bottom: 2%;
+		font-size: 300%;
+	}
+
+	.log p{
+		font-size: 200%;
+	}
+
+	.log input{
+		width: 100%;
+		margin-top: 5%;
+		margin-bottom:10%;
+	}
+
+	.log input[type="text"], input[type="email"]{
+	          border: none;
+	          border-bottom: .25vh solid #fff;
+	          background: transparent;
+	          outline:none;
+	          height:5vh;
+	          color:#fff;
+	          font-size:25px;
+	}
+
+	.log input[type="button"]{
+	      border: none;
+	      outline:none;
+	      height:5vh;
+	      background:#fb2525;
+	      color: #fff;
+	      font-size:30px;
+	      border-radius:20px;
+	}
+
+}
+
 
 /*@media only screen and (max-width:768px ){}*/
 
