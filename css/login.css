@@ -2,7 +2,9 @@ body{
 	margin: 0;
 	padding: 0;
 	background: url("../img/firecrack.jpg");
-	background-size: 100vw 100vh;
+	-o-background-size: 100vw 100vh;
+	-webkit-background-size: 100vw 100vh;
+	-moz-background-size: 100vw 100vh;
 	
 }
 
@@ -95,7 +97,9 @@ h1{
 		margin: 0;
 		padding: 0;
 		background: url("../img/firecrack.jpg");
-		background-size: 100vw 100vh;
+		-o-background-size: 100vw 100vh;
+		-webkit-background-size: 100vw 100vh;
+		-moz-background-size: 100vw 100vh;
 		
 		
 	}
@@ -189,7 +193,9 @@ h1{
 		margin: 0;
 		padding: 0;
 		background: url("../img/firecrack.jpg");
-		background-size: 100vw 100vh;
+		-o-background-size: 100vw 100vh;
+		-webkit-background-size: 100vw 100vh;
+		-moz-background-size: 100vw 100vh;
 		
 		
 	}
@@ -283,7 +289,9 @@ h1{
 		margin: 0;
 		padding: 0;
 		background: url("../img/firecrack.jpg");
-		background-size: 100vw 100vh;
+		-o-background-size: 100vw 100vh;
+		-webkit-background-size: 100vw 100vh;
+		-moz-background-size: 100vw 100vh;
 		
 		
 	}
@@ -372,7 +380,9 @@ h1{
 		margin: 0;
 		padding: 0;
 		background: url("../img/firecrack.jpg");
-		background-size: 100vw 100vh;
+		-o-background-size: 100vw 100vh;
+		-webkit-background-size: 100vw 100vh;
+		-moz-background-size: 100vw 100vh;
 		
 		
 	}
@@ -467,7 +477,9 @@ h1{
 		margin: 0;
 		padding: 0;
 		background: url("../img/firecrack.jpg");
-		background-size: 100vw 100vh;
+		-o-background-size: 100vw 100vh;
+		-webkit-background-size: 100vw 100vh;
+		-moz-background-size: 100vw 100vh;
 		
 		
 	}
@@ -562,7 +574,9 @@ h1{
 		margin: 0;
 		padding: 0;
 		background: url("../img/firecrack.jpg");
-		background-size: 100vw 100vh;
+		-o-background-size: 100vw 100vh;
+		-webkit-background-size: 100vw 100vh;
+		-moz-background-size: 100vw 100vh;
 		
 		
 	}
@@ -659,7 +673,9 @@ h1{
 		margin: 0;
 		padding: 0;
 		background: url("../img/firecrack.jpg");
-		background-size: 100vw 100vh;
+		-o-background-size: 100vw 100vh;
+		-webkit-background-size: 100vw 100vh;
+		-moz-background-size: 100vw 100vh;
 
 		
 	}
