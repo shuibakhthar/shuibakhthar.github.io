@@ -184,6 +184,14 @@ h1{
 }
 
 @media only screen and (min-width:550px ){
+	body{
+		margin: 0;
+		padding: 0;
+		background: url("../img/firecrack.jpg");
+		background-size: 100vw 100vh;
+		
+	}
+
 	#section1{
 		min-height:100vh;
 	}
@@ -269,6 +277,13 @@ h1{
 
 @media only screen and (min-width:640px ){
 
+	body{
+		margin: 0;
+		padding: 0;
+		background: url("../img/firecrack.jpg");
+		background-size: 100vw 100vh;
+		
+	}
 	#section1{
 		min-height: 100vh;
 	}
@@ -634,6 +649,14 @@ h1{
 
 }
 @media only screen and (min-width:1920px ){
+	body{
+		margin: 0;
+		padding: 0;
+		background: url("../img/firecrack.jpg");
+		background-size: 100vw 100vh;
+		
+	}
+	
 	#section1{
 		min-height: 100vh;
 	}
