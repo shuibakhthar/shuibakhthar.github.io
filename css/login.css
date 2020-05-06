@@ -141,7 +141,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb5f93', end
 	}
 }
 
-@media only screen and (orientation: landscape) and (max-width: 1340px) {
+@media only screen and (orientation: landscape) and (min-width: 1024px) {
 	#container .img1{
 		width: 100px;
 		height: 100px;
